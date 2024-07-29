@@ -26,6 +26,10 @@ export default function HomePage() {
       href: "/micro-task",
     },
     {
+      title: "Fetch",
+      href: "/fetch",
+    },
+    {
       title: "Idle callback",
       href: "/idle-callback",
     },
