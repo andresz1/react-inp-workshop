@@ -3,12 +3,17 @@
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { compute } from "@/utils";
 
 export default function TaskExamplePage() {
   const [counter, setCounter] = useState(0);
 
   const handleClick = () => {
     setCounter((counter) => counter + 1);
+
+    setTimeout(() => {
+      compute();
+    }, 0);
   };
 
   return (

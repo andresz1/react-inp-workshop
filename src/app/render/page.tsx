@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { compute } from "@/utils";
 
 export default function RenderExamplePage() {
   const [counter, setCounter] = useState(0);
@@ -10,6 +11,8 @@ export default function RenderExamplePage() {
   const handleClick = () => {
     setCounter((counter) => counter + 1);
   };
+
+  compute();
 
   return (
     <div className="space-y-6">

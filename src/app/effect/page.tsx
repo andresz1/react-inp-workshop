@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { compute } from "@/utils";
 
 export default function EffectExamplePage() {
   const [counter, setCounter] = useState(0);
@@ -10,6 +11,10 @@ export default function EffectExamplePage() {
   const handleClick = () => {
     setCounter((counter) => counter + 1);
   };
+
+  useEffect(() => {
+    compute();
+  }, [counter]);
 
   return (
     <div className="space-y-6">

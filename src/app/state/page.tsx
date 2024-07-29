@@ -3,12 +3,14 @@
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { compute } from "@/utils";
 
 export default function StateExamplePage() {
   const [counter, setCounter] = useState(0);
 
   const handleClick = () => {
     setCounter((counter) => counter + 1);
+    compute();
   };
 
   return (

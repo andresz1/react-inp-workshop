@@ -3,18 +3,23 @@
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { compute, delayTaskUntilUrgent } from "@/utils";
 
-export default function IdleCallbackExamplePage() {
+export default function TaskExamplePage() {
   const [counter, setCounter] = useState(0);
 
-  const handleClick = () => {
+  const handleClick = async () => {
     setCounter((counter) => counter + 1);
+
+    await delayTaskUntilUrgent();
+
+    compute();
   };
 
   return (
     <div className="space-y-6">
       <div className="space-y-1">
-        <h1 className="text-2xl font-bold">Idle callback example</h1>
+        <h1 className="text-2xl font-bold">Task example</h1>
 
         <p className="text-muted-foreground">Explore the examples</p>
       </div>
