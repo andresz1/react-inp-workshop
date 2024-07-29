@@ -6,8 +6,8 @@ import { Icon } from "@/components/ui/icon";
 export default function HomePage() {
   const examples = [
     {
-      title: "Changing states",
-      href: "/state",
+      title: "Event",
+      href: "/event",
     },
     {
       title: "Rendering",
