@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  React INP Workshop ⚡️
+</h1>
 
-## Getting Started
+<p align="center">
+  Learn about the INP metric through a series of examples in React.
+</p>
 
-First, run the development server:
+<p align="center">
+  <img alt="license badge" src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <a href="https://discord.gg/MqJk8GhYfM">	
+    <image alt="discord chat" src="https://img.shields.io/discord/704771560782692474?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2">
+  </a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Explore the Interaction to Next Paint (INP) metric, a new Core Web Vital, through a series of detailed examples in React. INP measures the responsiveness of web interactions, helping developers ensure smooth and engaging user experiences. This guide will help you understand and implement INP in your React applications, enhancing performance and user satisfaction.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Libraries
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [idlefy](https://github.com/redbus-labs/idlefy/tree/main)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contribuciones
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Would you like to contribute? That would be great! feel free to open a PR.
